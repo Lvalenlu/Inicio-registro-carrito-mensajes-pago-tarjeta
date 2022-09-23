@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #D9C7C5;
+}
+main > h1{
+    text-align: center;
+    font-size: xxx-large;   
+}
+.cartCont{
+    padding: 2% 2%;
+    background-color: white;
+    text-align: center;
+}
+.productCont{
+    width: 100%;
+    margin: 1% auto;
+    border-radius: 15px;
+}
+.product, .productInfo{
+    display: inline-block;
+}
+.productInfo{
+    height: 150px;
+}
+.productInfo > .product, p{
+    box-sizing: content-box;
+    display: inline-block;
+    margin: auto 5px;
+    background-color: #bf6a4b7f;
+    border-radius: 15px;
+}
+.productInfo > p{
+    padding: 50px 20px;
+}
+.productInfo > .product{
+    font-size: 80px;
+    padding: 18px 14px;
+    background-color: #bf6a4b7f;
+    position: relative;
+    bottom: -23.5px;
+}
+.infoProduct{
+    width: 650px;
+    text-align: center;
+}
+.publicity{
+    height: 150px;
+    width: 90%;
+    margin: 3% auto;
+    background-image: url(../img/lipstick-4743984_1920.jpg);
+    border: 2px solid grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -400px;
+}
+
