@@ -9,8 +9,11 @@ main > h1{
     font-size: xxx-large;   
 }
 .cartCont{
-    padding: 2% 2%;
+    margin: 0 50px;
+    padding: 2% 1%;
     background-color: white;
+    border-radius: 15px;
+    border: 5px #BF6A4B dashed;
     text-align: center;
 }
 .productCont{
@@ -18,14 +21,28 @@ main > h1{
     margin: 1% auto;
     border-radius: 15px;
 }
+.productTitles > h2{
+    display: inline-block;
+    margin: auto 5px;
+    padding: 15px 0;
+    border-bottom:  2px solid #BF6A4B;
+}
+.productTitles > .descripcion{
+    width: 650px;
+}
+.productTitles > .producto{
+    width: 125px;
+}
+.productTitles > .nombre{
+    width: 102px;
+}
+.productTitles > .fechaEntrega{
+    width: 195px;
+}
 .product, .productInfo{
     display: inline-block;
 }
-.productInfo{
-    height: 150px;
-}
 .productInfo > .product, p{
-    box-sizing: content-box;
     display: inline-block;
     margin: auto 5px;
     background-color: #bf6a4b7f;
@@ -55,4 +72,3 @@ main > h1{
     background-size: cover;
     background-position: 0 -400px;
 }
-
